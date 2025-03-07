@@ -1,0 +1,113 @@
+@font-face {
+  font-family: "FiraSansCondensed-ExtraLight";
+  src: url(/fonts/FiraSansCondensed-ExtraLight.woff2) format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FiraSansCondensed-Regular";
+  src: url(/fonts/FiraSansCondensed-Regular.woff2) format("woff2");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FiraSansCondensed-SemiBold";
+  src: url(/fonts/FiraSansCondensed-SemiBold.woff2) format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+body {
+  font-family: "FiraSansCondensed-SemiBold";
+}
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+::after {
+  box-sizing: inherit;
+}
+.main {
+  height: 100vh;
+  background: url(/img/My_foto2.png) no-repeat center;
+  background-size: cover;
+  padding-top: 50px;
+  width: 100%;
+  position: fixed;
+}
+.title {
+  margin-left: 700px;
+  font-size: 54px;
+  line-height: 36px;
+  color: black;
+  max-width: 1200px;
+  margin-top: 50px;
+  text-shadow: 10px 10px 20px rgb(0, 200, 255), 0 0 1em rgb(13, 255, 0),
+    0 0 0.2em blue;
+}
+.header-item {
+  font-size: 20px;
+  line-height: 20px;
+  color: black;
+  max-width: 1200px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.intro_title {
+  font-family: "FiraSansCondensed-Regular";
+  margin-left: 50px;
+  font-size: 24px;
+  line-height: 28px;
+  color: black;
+  max-width: 600px;
+  margin-top: 50px;
+}
+.header-item {
+  font-family: "FiraSansCondensed-Regular";
+  font-size: 20px;
+  line-height: 20px;
+  color: black;
+  max-width: 1200px;
+  margin-top: 20px;
+  margin-left: 70px;
+  display: block;
+  width: 800px;
+  height: 30px;
+  border: 3px dashed green;
+}
+.background {
+  font-family: "FiraSansCondensed-Regular";
+  font-size: 24px;
+  line-height: 20px;
+  color: black;
+  max-width: 1200px;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+.contact {
+  font-family: "FiraSansCondensed-ExtraLight";
+  font-size: 24px;
+  line-height: 20px;
+  color: black;
+  margin-top: 20px;
+}
+.btn_project {
+  font-family: "FiraSansCondensed-Regular";
+  font-size: 20px;
+  line-height: 18px;
+  color: black;
+  max-width: 120px;
+  margin-left: 50px;
+  margin-top: 20px;
+  background-color: aqua;
+  border-radius: 20%;
+}
+.btn_project:hover {
+  background-color: blueviolet;
+}
