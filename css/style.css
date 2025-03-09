@@ -35,21 +35,22 @@ html {
 }
 .main {
   height: 100vh;
-  background: url(../img/Jura.gif) no-repeat center;
+  /* background: url(../img/Jura.mp4) no-repeat center; */
   background-size: cover;
-  padding-top: 50px;
   width: 100%;
-  position: fixed;
+  /* position: fixed; */
+  position: relative;
 }
 .title {
+  padding-top: 100px;
   margin-left: 700px;
   font-size: 54px;
   line-height: 36px;
   color: black;
   max-width: 1200px;
-  margin-top: 50px;
   text-shadow: 10px 10px 20px rgb(0, 200, 255), 0 0 1em rgb(13, 255, 0),
     0 0 0.2em blue;
+  position: relative;
 }
 .header-item {
   font-size: 20px;
@@ -58,6 +59,7 @@ html {
   max-width: 1200px;
   margin-top: 50px;
   margin-left: 50px;
+  position: relative;
 }
 .intro_title {
   font-family: "FiraSansCondensed-Regular";
@@ -67,6 +69,7 @@ html {
   color: black;
   max-width: 600px;
   margin-top: 50px;
+  position: relative;
 }
 .header-item {
   font-family: "FiraSansCondensed-Regular";
@@ -80,6 +83,7 @@ html {
   width: 800px;
   height: 30px;
   border: 3px dashed green;
+  position: relative;
 }
 .background {
   font-family: "FiraSansCondensed-Regular";
@@ -89,6 +93,7 @@ html {
   max-width: 1200px;
   margin-top: 20px;
   margin-left: 50px;
+  position: relative;
 }
 .contact {
   font-family: "FiraSansCondensed-ExtraLight";
@@ -96,6 +101,7 @@ html {
   line-height: 20px;
   color: black;
   margin-top: 20px;
+  position: relative;
 }
 .btn_project {
   font-family: "FiraSansCondensed-Regular";
@@ -107,7 +113,19 @@ html {
   margin-top: 20px;
   background-color: aqua;
   border-radius: 20%;
+  position: relative;
 }
 .btn_project:hover {
   background-color: blueviolet;
+  position: relative;
+}
+.video {
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  object-fit: fill;
+  height: 100vh;
+}
+div {
+  z-index: 10;
 }
